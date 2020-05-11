@@ -1,7 +1,7 @@
-### Prerequisites
+## Prerequisites
 
 Run `npm install`
 
-### Scripts
+## Scripts
 
 * `npm run start` Run the web on development server.

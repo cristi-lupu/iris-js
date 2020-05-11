@@ -1,17 +1,17 @@
 Iris Programming Language written in JavaScript (for now it's only the lexer, but in future will be more, I hope 😅)
 
-### Project Structure
+## Project Structure
 
 * [src](src) directory contains Iris lexer
 * [test](test) directory contains lexer tests
 * [iris-web](iris-web) directory contains a web page for testing lexer functionality
 
-### Scripts
+## Scripts
 
 * `npm run lint` Run linter on [src](src) directory files
 * `npm run test` Run tests from [test](test) directory
 
-### Prerequisites
+## Prerequisites
 
 Run `npm install`
 
