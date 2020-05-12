@@ -1,4 +1,4 @@
-const TokenType = require('./tokenType');
+import TokenType from './tokenType';
 
 const reservedKeywords = {
     and: TokenType.AND,
@@ -28,4 +28,4 @@ const reservedKeywords = {
 
 Object.freeze(reservedKeywords);
 
-module.exports = reservedKeywords;
+export default reservedKeywords;

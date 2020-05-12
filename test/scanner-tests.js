@@ -1,9 +1,7 @@
-const assert = require('assert');
-const mocha = require('mocha');
+import * as assert from 'assert';
+import { describe, it } from 'mocha';
 
-const { describe, it } = mocha;
-
-const { Token, TokenType, Scanner } = require('../src/index');
+import { Token, TokenType, Scanner } from '../src/index';
 
 describe('Token', () => {
     describe('#scanTokens()', () => {

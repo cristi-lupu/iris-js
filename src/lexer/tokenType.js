@@ -67,4 +67,4 @@ const TokenType = {
 
 Object.freeze(TokenType);
 
-module.exports = TokenType;
+export default TokenType;

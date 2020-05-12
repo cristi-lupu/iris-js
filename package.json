@@ -1,12 +1,11 @@
 {
-    "type": "commonjs",
     "name": "iris-js",
     "version": "0.0.1",
     "description": "Iris Programming Language",
     "main": "src/index.js",
     "scripts": {
         "lint": "eslint src/",
-        "test": "mocha"
+        "test": "mocha -r esm"
     },
     "author": "Cristian Lupu",
     "license": "MIT",
@@ -16,5 +15,8 @@
         "eslint-plugin-flowtype": "^4.7.0",
         "eslint-plugin-import": "^2.20.0",
         "mocha": "^7.0.0"
+    },
+    "dependencies": {
+        "esm": "^3.2.25"
     }
 }

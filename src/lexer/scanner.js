@@ -1,6 +1,6 @@
-const Token = require('./token');
-const TokenType = require('./tokenType');
-const reservedKeywords = require('./reservedKeywords');
+import Token from './token';
+import TokenType from './tokenType';
+import reservedKeywords from './reservedKeywords';
 
 function isAlpha(char) {
     const match = char.match(/^[a-zA-Z0-9_]$/);
@@ -296,4 +296,4 @@ class Scanner {
     }
 }
 
-module.exports = Scanner;
+export default Scanner;

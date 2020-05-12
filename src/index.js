@@ -1,7 +1,5 @@
-const Token = require('./lexer/token');
-const TokenType = require('./lexer/tokenType');
-const Scanner = require('./lexer/scanner');
+import Token from './lexer/token';
+import TokenType from './lexer/tokenType';
+import Scanner from './lexer/scanner';
 
-module.exports.Token = Token;
-module.exports.TokenType = TokenType;
-module.exports.Scanner = Scanner;
+export { Token, TokenType, Scanner };
