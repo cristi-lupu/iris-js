@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sources-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sources-container > * {
+    margin: 5px;
+}
+
+.sources-container {
+    margin: -5px;
+}
+
+.source-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.source-element text {
+    text-align: center;
+}
+
+.tokenize-button {
+    width: 100px;
+    height: 30px;
+}
+
+text {
+    color: orange;
+}
